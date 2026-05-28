@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>समस्तीपुर बिहार - यूट्यूब वीडियो पोर्टल</title>
+    <style>
+        /* बेसिक स्टाइलिंग और कलर्स */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* हेडर (Header) स्टाइल */
+        header {
+            background-color: #ff0000; /* यूट्यूब रेड कलर */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* मुख्य कंटेनर */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* कैटेगरी का नाम */
+        .category-title {
+            font-size: 1.8rem;
+            color: #111;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 5px solid #ff0000;
+            padding-left: 10px;
+        }
+
+        /* वीडियो ग्रिड लेआउट */
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        /* वीडियो कार्ड स्टाइल */
+        .video-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .video-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* यूट्यूब वीडियो एम्बेड कंटेनर (रिस्पॉन्सिव 16:9) */
+        .video-responsive {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 एस्पेक्ट रेशियो */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* वीडियो डिटेल्स */
+        .video-info {
+            padding: 15px;
+        }
+
+        .video-info h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: #222;
+            line-height: 1.4;
+        }
+
+        .video-info p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* फुटर (Footer) */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 5px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>समस्तीपुर बिहार (YouTube Portal)</h1>
+        <p>हमारे समस्तीपुर के सभी मशहूर यूट्यूब वीडियोज़ एक ही जगह पर</p>
+    </header>
+
+    <div class="container">
+
+        <h2 class="category-title">Samastipur Vlogs (हमारे शहर की झलक)</h2>
+        <div class="video-grid">
+            
+            <div class="video-card">
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+                <div class="video-info">
+                    <h3>समस्तीपुर जंक्शन और शहर का शानदार व्लॉग</h3>
+                    <p>द्वारा: Local Vlogger • 2 दिन पहले</p>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+                <div class="video-info">
+                    <h3>समस्तीपुर का मशहूर बूढ़ी गंडक नदी घाट</h3>
+                    <p>द्वारा: Explore Bihar • 1 हफ्ते पहले</p>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+                <div class="video-info">
+                    <h3>मोहिउद्दीननगर और ताजपुर का सफरनामा</h3>
+                    <p>द्वारा: Samastipur Boy • 5 दिन पहले</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="category-title">Samastipur News (ताज़ा खबरें)</h2>
+        <div class="video-grid">
+            
+            <div class="video-card">
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+                <div class="video-info">
+                    <h3>समस्तीपुर की आज की बड़ी खबरें</h3>
+                    <p>द्वारा: Samastipur News Live • आज</p>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+                <div class="video-info">
+                    <h3>यहाँ के विकास और नई सड़कों की ताज़ा रिपोर्ट</h3>
+                    <p>द्वारा: Bihar Times • कल</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 समस्तीपुर बिहार वीडियो पोर्टल. सर्वाधिकार सुरक्षित।</p>
+    </footer>
+
+</body>
+</html>
